@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - Instamart Clone</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Instamart Clone</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="product-list">
+    <h2>Groceries</h2>
+    <div class="product-card" onclick="window.location.href='product-detail.html'">
+      <img src="assets/images/product1.jpg" alt="Product 1">
+      <h3>Product 1</h3>
+      <p>Price: $10</p>
+    </div>
+    <div class="product-card" onclick="window.location.href='product-detail.html'">
+      <img src="assets/images/product2.jpg" alt="Product 2">
+      <h3>Product 2</h3>
+      <p>Price: $15</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Instamart Clone. All rights reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
